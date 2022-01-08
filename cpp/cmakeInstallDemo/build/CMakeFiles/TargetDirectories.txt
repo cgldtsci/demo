@@ -1,0 +1,8 @@
+/Users/cgl/Desktop/demo/cpp/cmakeInstallDemo/build/CMakeFiles/mymath.dir
+/Users/cgl/Desktop/demo/cpp/cmakeInstallDemo/build/CMakeFiles/mymathapp.dir
+/Users/cgl/Desktop/demo/cpp/cmakeInstallDemo/build/CMakeFiles/edit_cache.dir
+/Users/cgl/Desktop/demo/cpp/cmakeInstallDemo/build/CMakeFiles/rebuild_cache.dir
+/Users/cgl/Desktop/demo/cpp/cmakeInstallDemo/build/CMakeFiles/list_install_components.dir
+/Users/cgl/Desktop/demo/cpp/cmakeInstallDemo/build/CMakeFiles/install.dir
+/Users/cgl/Desktop/demo/cpp/cmakeInstallDemo/build/CMakeFiles/install/local.dir
+/Users/cgl/Desktop/demo/cpp/cmakeInstallDemo/build/CMakeFiles/install/strip.dir

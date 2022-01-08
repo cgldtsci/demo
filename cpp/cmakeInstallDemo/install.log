@@ -1,0 +1,14 @@
+cgldeMacBook-Pro:build cgl$ make install
+Consolidate compiler generated dependencies of target mymath
+[ 50%] Built target mymath
+Consolidate compiler generated dependencies of target mymathapp
+[100%] Built target mymathapp
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/local/lib/libmymath.dylib
+-- Up-to-date: /usr/local/include/mymath.h
+-- Installing: /usr/local/bin/mymathapp
+-- Installing: /usr/local/lib/cmake/MyMath/MyMathTargets.cmake
+-- Installing: /usr/local/lib/cmake/MyMath/MyMathTargets-noconfig.cmake
+-- Installing: /usr/local/lib/cmake/MyMath/MyMathConfig.cmake
+-- Installing: /usr/local/lib/cmake/MyMath/MyMathConfigVersion.cmake

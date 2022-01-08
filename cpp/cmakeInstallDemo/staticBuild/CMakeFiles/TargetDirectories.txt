@@ -1,0 +1,4 @@
+/Users/cgl/Desktop/demo/cpp/cmakeInstallDemo/build/CMakeFiles/mymath.dir
+/Users/cgl/Desktop/demo/cpp/cmakeInstallDemo/build/CMakeFiles/mymathapp.dir
+/Users/cgl/Desktop/demo/cpp/cmakeInstallDemo/build/CMakeFiles/edit_cache.dir
+/Users/cgl/Desktop/demo/cpp/cmakeInstallDemo/build/CMakeFiles/rebuild_cache.dir
