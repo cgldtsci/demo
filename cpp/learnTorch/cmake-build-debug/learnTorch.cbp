@@ -44,7 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/include"/>
+					<Add directory="/usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/include/python3.9"/>
+					<Add directory="/Users/cgl/Desktop/demo/cpp/learnTorch/cmake-build-debug"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
@@ -66,7 +67,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/include"/>
+					<Add directory="/usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/include/python3.9"/>
+					<Add directory="/Users/cgl/Desktop/demo/cpp/learnTorch/cmake-build-debug"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>

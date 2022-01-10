@@ -8,6 +8,12 @@ INCLUDE_DIRECTORIES("/usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framew
 # 添加python动态链接库文件目录
 link_directories("/usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib")
 
+INCLUDE_DIRECTORIES("/usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/include/python3.9")
+
+set(TH_DIR "/Users/cgl/Desktop/demo/cpp/learnTorch/torch/lib/TH")
+INCLUDE_DIRECTORIES("${TH_DIR}")
+CONFIGURE_FILE("${TH_DIR}/THGeneral.h.in" "${TH_DIR}/THGeneral.h")
+
 set(SOURCE_FILES main.cpp)
 add_executable(learnTorch main.cpp)
 target_link_libraries(learnTorch libpython3.9.dylib)

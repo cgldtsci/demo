@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/include 
+CXX_INCLUDES = -I/usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/include/python3.9 -I/Users/cgl/Desktop/demo/cpp/learnTorch/cmake-build-debug 
 
