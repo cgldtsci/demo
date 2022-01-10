@@ -14,18 +14,11 @@
 # EXTERNAL cache entries
 ########################
 
-//The directory containing a CMake configuration file for ARM.
-ARM_DIR:PATH=ARM_DIR-NOTFOUND
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ar
-
-//For backwards compatibility, what version of CMake commands and
-// syntax should this version of CMake try to support.
-CMAKE_BACKWARDS_COMPATIBILITY:STRING=2.4
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
@@ -214,9 +207,6 @@ CMAKE_STRIP:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Single output directory for building all executables.
-EXECUTABLE_OUTPUT_PATH:PATH=
-
 //Value Computed by CMake
 HELLO_BINARY_DIR:STATIC=/Users/cgl/Desktop/demo/cpp/cmakeSimpleDemo/build
 
@@ -225,30 +215,6 @@ HELLO_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 HELLO_SOURCE_DIR:STATIC=/Users/cgl/Desktop/demo/cpp/cmakeSimpleDemo
-
-//Single output directory for building all libraries.
-LIBRARY_OUTPUT_PATH:PATH=
-
-//CXX compiler flags for OpenMP parallelization
-OpenMP_CXX_FLAGS:STRING=NOTFOUND
-
-//CXX compiler libraries for OpenMP parallelization
-OpenMP_CXX_LIB_NAMES:STRING=NOTFOUND
-
-//C compiler flags for OpenMP parallelization
-OpenMP_C_FLAGS:STRING=NOTFOUND
-
-//C compiler libraries for OpenMP parallelization
-OpenMP_C_LIB_NAMES:STRING=NOTFOUND
-
-//The directory containing a CMake configuration file for SSE.
-SSE_DIR:PATH=SSE_DIR-NOTFOUND
-
-//OpenMP support if available?
-WITH_OPENMP:BOOL=ON
-
-//hello world
-address:BOOL=ON
 
 
 ########################
@@ -392,36 +358,4 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Have function malloc_usable_size
-HAVE_MALLOC_USABLE_SIZE:INTERNAL=
-//Have function mmap
-HAVE_MMAP:INTERNAL=1
-//Have function shm_open
-HAVE_SHM_OPEN:INTERNAL=1
-//Have function shm_unlink
-HAVE_SHM_UNLINK:INTERNAL=1
-//Result of TRY_COMPILE
-OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp:INTERNAL=FALSE
-//Result of TRY_COMPILE
-OpenMP_COMPILE_RESULT_CXX_fopenmp:INTERNAL=FALSE
-//Result of TRY_COMPILE
-OpenMP_COMPILE_RESULT_CXX_fopenmplibiomp5:INTERNAL=FALSE
-//Result of TRY_COMPILE
-OpenMP_COMPILE_RESULT_CXX_fopenmplibomp:INTERNAL=FALSE
-//Result of TRY_COMPILE
-OpenMP_COMPILE_RESULT_C_Xclang fopenmp:INTERNAL=FALSE
-//Result of TRY_COMPILE
-OpenMP_COMPILE_RESULT_C_fopenmp:INTERNAL=FALSE
-//Result of TRY_COMPILE
-OpenMP_COMPILE_RESULT_C_fopenmplibiomp5:INTERNAL=FALSE
-//Result of TRY_COMPILE
-OpenMP_COMPILE_RESULT_C_fopenmplibomp:INTERNAL=FALSE
-//ADVANCED property for variable: OpenMP_CXX_FLAGS
-OpenMP_CXX_FLAGS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OpenMP_CXX_LIB_NAMES
-OpenMP_CXX_LIB_NAMES-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OpenMP_C_FLAGS
-OpenMP_C_FLAGS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OpenMP_C_LIB_NAMES
-OpenMP_C_LIB_NAMES-ADVANCED:INTERNAL=1
 
