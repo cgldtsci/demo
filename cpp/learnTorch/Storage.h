@@ -9,6 +9,7 @@
 #define THPStorageClass TH_CONCAT_3(THP,Real,StorageClass)
 
 #include "generic/Storage.h"
-#include <TH/THGenerateAllTypes.h>
+//#include <TH/THGenerateAllTypes.h>
+#include "THGenerateAllTypes.h"
 
 #endif

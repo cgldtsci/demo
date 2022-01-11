@@ -14,19 +14,24 @@
     <list default="true" id="7c8a8357-880b-48ed-8633-4ed58a138fc4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storage.h" beforeDir="false" afterPath="$PROJECT_DIR$/Storage.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learnTorch.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learnTorch.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learnTorch.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learnTorch.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learnTorch.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learnTorch.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learnTorch.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learnTorch.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learnTorch.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learnTorch.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learnTorch.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learnTorch.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learnTorch.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/learnTorch" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/learnTorch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/learnTorch.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/learnTorch.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/Storage.h" beforeDir="false" afterPath="$PROJECT_DIR$/generic/Storage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TH/THGenerateAllTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TH/THGenerateAllTypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TH/build/TH/include/TH/TH.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TH/build/TH/include/TH/TH.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TH/build/TH/include/TH/THGenerateAllTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TH/build/TH/include/TH/THGenerateAllTypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TH/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TH/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/TH/build/install_manifest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TH/build/install_manifest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torch/csrc/Storage.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/torch/csrc/Storage.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/torch/csrc/generic/Storage.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +61,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="learnTorch" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="learnTorch" TARGET_NAME="learnTorch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="learnTorch" RUN_TARGET_NAME="learnTorch">
@@ -82,7 +87,8 @@
       <updated>1641653543925</updated>
       <workItem from="1641653545402" duration="136000" />
       <workItem from="1641653684216" duration="15340000" />
-      <workItem from="1641907825841" duration="2575000" />
+      <workItem from="1641907825841" duration="6403000" />
+      <workItem from="1641914479009" duration="5599000" />
     </task>
     <servers />
   </component>

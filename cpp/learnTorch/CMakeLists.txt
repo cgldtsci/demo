@@ -3,9 +3,13 @@ PROJECT(learnTorch)
 
 SET(CMAKE_CXX_STANDARD 11)
 
-SET(PYTHON_INCLUDE_DIR /usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/include/python3.9)
-SET(PYTHON_DYNAMIC_LIB_DIR /usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib)
-SET(PYTHON_DYNAMIC_LIB libpython3.9.dylib)
+#SET(PYTHON_INCLUDE_DIR /usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/include/python3.9)
+#SET(PYTHON_DYNAMIC_LIB_DIR /usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib)
+#SET(PYTHON_DYNAMIC_LIB libpython3.9.dylib)
+
+SET(PYTHON_INCLUDE_DIR /usr/local/Cellar/python@3.6/3.6.15/Frameworks/Python.framework/Versions/3.6/include/python3.6m)
+SET(PYTHON_DYNAMIC_LIB_DIR /usr/local/Cellar/python@3.6/3.6.15/Frameworks/Python.framework/Versions/3.6/lib)
+SET(PYTHON_DYNAMIC_LIB libpython3.6m.dylib)
 
 #SET(PYTHON_INCLUDE_DIR /Library/Frameworks/Python.framework/Versions/3.6/include/python3.6m)
 #SET(PYTHON_DYNAMIC_LIB_DIR /Library/Frameworks/Python.framework/Versions/3.6/lib)

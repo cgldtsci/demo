@@ -1,4 +1,4 @@
-#include_next TH_INC
+#ifndef TH_INC
 #define TH_INC
 
 
