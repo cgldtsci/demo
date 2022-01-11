@@ -1,0 +1,6 @@
+/Users/cgl/Desktop/demo/cpp/learnTorch/lib/TH/build/CMakeFiles/edit_cache.dir
+/Users/cgl/Desktop/demo/cpp/learnTorch/lib/TH/build/CMakeFiles/rebuild_cache.dir
+/Users/cgl/Desktop/demo/cpp/learnTorch/lib/TH/build/CMakeFiles/list_install_components.dir
+/Users/cgl/Desktop/demo/cpp/learnTorch/lib/TH/build/CMakeFiles/install.dir
+/Users/cgl/Desktop/demo/cpp/learnTorch/lib/TH/build/CMakeFiles/install/local.dir
+/Users/cgl/Desktop/demo/cpp/learnTorch/lib/TH/build/CMakeFiles/install/strip.dir

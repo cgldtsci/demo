@@ -1,8 +1,6 @@
 #ifndef THP_STORAGE_INC
 #define THP_STORAGE_INC
-// THP TorchPython
 
-// 宏产生类似模板的作用
 #define THPStorage_(NAME) TH_CONCAT_4(THP,Real,Storage_,NAME)
 #define THPStorage TH_CONCAT_3(THP,Real,Storage)
 #define THPStorageType TH_CONCAT_3(THP,Real,StorageType)
