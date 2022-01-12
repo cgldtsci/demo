@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/cgl/Desktop/demo/cpp/learnTorch/lib/TH/build/TH")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,9 +40,15 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/TH" TYPE FILE FILES
     "/Users/cgl/Desktop/demo/cpp/learnTorch/lib/TH/TH.h"
+    "/Users/cgl/Desktop/demo/cpp/learnTorch/lib/TH/THAllocator.h"
     "/Users/cgl/Desktop/demo/cpp/learnTorch/lib/TH/build/THGeneral.h"
     "/Users/cgl/Desktop/demo/cpp/learnTorch/lib/TH/THGenerateAllTypes.h"
+    "/Users/cgl/Desktop/demo/cpp/learnTorch/lib/TH/THStorage.h"
     )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/TH/generic" TYPE FILE FILES "/Users/cgl/Desktop/demo/cpp/learnTorch/lib/TH/generic/THStorage.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

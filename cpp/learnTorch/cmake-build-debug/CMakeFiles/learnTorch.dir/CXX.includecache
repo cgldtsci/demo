@@ -43,6 +43,8 @@ THP.h
 /Users/cgl/Desktop/demo/cpp/learnTorch/THP.h
 generic/Storage.cpp
 /Users/cgl/Desktop/demo/cpp/learnTorch/generic/Storage.cpp
+THGenerateAllTypes.h
+/Users/cgl/Desktop/demo/cpp/learnTorch/THGenerateAllTypes.h
 
 /usr/local/Cellar/python@3.6/3.6.15/Frameworks/Python.framework/Versions/3.6/include/python3.6m/Python.h
 patchlevel.h
@@ -425,4 +427,26 @@ wchar.h
 /usr/local/Cellar/python@3.6/3.6.15/Frameworks/Python.framework/Versions/3.6/include/python3.6m/weakrefobject.h
 
 /usr/local/include/TH/TH.h
+THGeneral.h
+/usr/local/include/TH/THGeneral.h
+THStorage.h
+/usr/local/include/TH/THStorage.h
+
+/usr/local/include/TH/THAllocator.h
+THGeneral.h
+/usr/local/include/TH/THGeneral.h
+
+/usr/local/include/TH/THGeneral.h
+
+/usr/local/include/TH/THStorage.h
+THGeneral.h
+/usr/local/include/TH/THGeneral.h
+THAllocator.h
+/usr/local/include/TH/THAllocator.h
+generic/THStorage.h
+/usr/local/include/TH/generic/THStorage.h
+THGenerateAllTypes.h
+/usr/local/include/TH/THGenerateAllTypes.h
+
+/usr/local/include/TH/generic/THStorage.h
 

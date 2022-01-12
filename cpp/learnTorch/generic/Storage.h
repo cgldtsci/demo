@@ -2,21 +2,16 @@
 #define TH_GENERIC_FILE "generic/Storage.h"
 #else
 
-#define test Real
-
 struct THPStorage{
-    int num;
+  PyObject_HEAD
+  THStorage *cdata;
+
 };
 
-//struct THPStorage {
-//  PyObject_HEAD
-//  THStorage *cdata;
-//};
-
-//extern PyTypeObject THPStorageType;
+extern PyTypeObject THPStorageType;
 //
 //bool THPStorage_(init)(PyObject *module);
-//PyObject * THPStorage_(newObject)(THStorage *storage);
+PyObject * THPStorage_(newObject)(THStorage *storage);
 //bool THPStorage_(IsSubclass)(PyObject *storage);
 
 #endif

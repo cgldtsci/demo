@@ -20,6 +20,14 @@ CONFIGURE_FILE(THGeneral.h.in "${CMAKE_CURRENT_BINARY_DIR}/THGeneral.h")
 
 INSTALL(FILES
         TH.h
+        THAllocator.h
+
         ${CMAKE_CURRENT_BINARY_DIR}/THGeneral.h
         THGenerateAllTypes.h
+        THStorage.h
         DESTINATION "${TH_INSTALL_INCLUDE_SUBDIR}/TH")
+
+INSTALL(FILES
+        generic/THStorage.h
+        DESTINATION "${TH_INSTALL_INCLUDE_SUBDIR}/TH/generic")
+

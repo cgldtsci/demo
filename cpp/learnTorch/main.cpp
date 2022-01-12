@@ -9,16 +9,18 @@
 #include "THP.h"
 
 #include "generic/Storage.cpp"
+//#include <TH/THGenerateAllTypes.h>
+#include "THGenerateAllTypes.h"
 
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
     //动态库部分
     Py_Initialize();
-//    struct a a1;
 
-    std::cout << TH_GENERIC_FILE << std::endl;
-//    std::cout << a1.num << std::endl;
+    THPByteStorage;
+    THPDoubleStorage;
+
 
     return 0;
 }

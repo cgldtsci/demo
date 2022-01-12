@@ -80,4 +80,8 @@ CMakeFiles/learnTorch.dir/main.cpp.o: /usr/local/Cellar/python@3.6/3.6.15/Framew
 CMakeFiles/learnTorch.dir/main.cpp.o: /usr/local/Cellar/python@3.6/3.6.15/Frameworks/Python.framework/Versions/3.6/include/python3.6m/warnings.h
 CMakeFiles/learnTorch.dir/main.cpp.o: /usr/local/Cellar/python@3.6/3.6.15/Frameworks/Python.framework/Versions/3.6/include/python3.6m/weakrefobject.h
 CMakeFiles/learnTorch.dir/main.cpp.o: /usr/local/include/TH/TH.h
+CMakeFiles/learnTorch.dir/main.cpp.o: /usr/local/include/TH/THAllocator.h
+CMakeFiles/learnTorch.dir/main.cpp.o: /usr/local/include/TH/THGeneral.h
+CMakeFiles/learnTorch.dir/main.cpp.o: /usr/local/include/TH/THStorage.h
+CMakeFiles/learnTorch.dir/main.cpp.o: /usr/local/include/TH/generic/THStorage.h
 
