@@ -1,6 +1,0 @@
-/usr/local/include/TH/TH.h
-/usr/local/include/TH/THAllocator.h
-/usr/local/include/TH/THGeneral.h
-/usr/local/include/TH/THGenerateAllTypes.h
-/usr/local/include/TH/THStorage.h
-/usr/local/include/TH/generic/THStorage.h
